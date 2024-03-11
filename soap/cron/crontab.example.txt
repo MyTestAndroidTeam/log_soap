@@ -1,0 +1,3 @@
+#poll greenht data and send to EOT
+*/2 * * * * /var/development/dekker-api.easyiq.nl/dekker-api/soap/cron/poll.sh > /dev/null
+  * * * * * /var/development/dekker-api.easyiq.nl/dekker-api/soap/cron/handle.sh > /dev/null
